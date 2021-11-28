@@ -1,0 +1,137 @@
+#menuhead{
+    height:510px;
+}
+
+#menucontent{
+    height: fit-content;
+    background-image: url(../../images/menu/background4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    color:#fff;;
+}
+
+
+
+/*fliter*/
+#category {
+    margin-left: 360px;
+    font-size: 18px;
+    line-height: 2;
+    padding-bottom: 100px;
+}
+
+
+/* Filter controls */
+.simplefilter li {
+    color: white;
+    display: inline-block;
+    padding: 1rem 2rem;
+    width: 150px;
+    text-align:center;
+}
+
+.simplefilter li.catetitle{
+    text-align: left;
+    font-weight:bold;
+    width:180px;
+}
+
+
+.simplefilter li.choose{
+    cursor: pointer;  
+}
+
+.simplefilter li.choose:hover{
+    color:#dd9271;
+}
+
+.simplefilter li.choose.active {
+    color:#dd9271;
+}
+
+
+/*menu*/
+
+.main-menu{
+    margin-left: 280px;
+    margin-right:300px;
+}
+
+
+.filtr-item{
+    display: inline-block;
+}
+
+
+.meal-container {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+.meal-price a {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background: #ffce1c;
+    color: #111;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+}
+.meal-container div {
+    padding: 10px;
+}
+.meal-container a:hover{
+    color: #ffce1c;
+}
+.meal-price a:hover{
+    color: #fff;
+    background: #FF6F1C;
+}
+.meal-container .line {
+    margin-top: 35px;
+    width: 12%;
+    padding: 0 !important;
+}
+.meal-container .line hr {
+    color: #fff;
+    border: none;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: medium;
+    border-top: 2px dashed;
+}
+.meal-price span {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 6px;
+    text-decoration: line-through;
+    font-size: 16px;
+    font-weight: 600;
+}
+.meal-price {
+    margin-top:25px;
+}
+
+
+
+.meal-content {
+    margin-top: 15px;
+}
+
+.meal-content a{
+    font-size: 22px;
+    color: #fff;
+}
+
+#menubottom{
+    height: 200px;
+}

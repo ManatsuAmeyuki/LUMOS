@@ -1,0 +1,160 @@
+    h1 {text-align: center;
+            color: darkred;
+            font-family:"Road Rage";
+        }
+    #white{height:100px;}
+    .i1{    text-align: center;
+                
+                margin-left: 430px;
+                padding: 2px;}
+     .video{float: left;
+               margin-left: 50px;}
+    .container {margin:10px}
+    .infor{
+            border-left-width: 23px;
+            font-size: 25px;
+            float: right;
+            text-align:inherit;
+               line-height: 15px;
+            vertical-align:middle;}
+        .button {
+  display: inline-block;
+  border-radius: 4px;
+  position:relative;
+  left: 150px;
+  background-color: #f33c0e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 26px;
+  padding: 10px;
+  width: 180px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.diy{clear:both;
+    }
+#diy{margin-left: 480px;
+    width:280px;
+    height: 128px;}
+
+#cj{
+    width:420px; height:420px; float:left;
+    margin-left: 140px;}
+ #td{
+    width:350px; height:370px; 
+    position:absolute;
+    top:1420px;
+    left:180px;
+    clear:both;}
+#text1 {
+    width:470px; height:350px; float:right;
+    
+   }  
+#text2 {
+    width:420px; height:330px; 
+    position:absolute;
+    top:1420px;
+    left:800px;
+   }  
+.vote1{
+  display: inline-block;
+  border-radius: 4px;
+  position:absolute;
+  background-color: white;
+  left: 900px;
+  
+  top: 1310px;
+  border-color:lightcoral;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 100px;
+  margin: 5px;
+}
+.vote2{
+  display: inline-block;
+  border-radius: 4px;
+  position:absolute;
+  background-color: white;
+  left: 910px;
+  top: 1745px;
+  border-color:lightcoral;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 100px;
+  margin: 5px;
+}
+#join{ width:1000px;height: 430px;position: absolute;
+    top:1800px;left:180px;text-align: center;}
+#b1{display: inline-block;
+  border:none;
+  position:absolute;
+  background-color: white;
+  left: 279px;
+  top: 2280px;
+  
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 200px;
+  }
+  #b2{display: inline-block;
+  border:none;
+  position:absolute;
+  background-color: white;
+  left: 240px;
+  top: 2480px;
+  
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 300px;
+  }
+  #b3{display: inline-block;
+  border:none;
+  position:absolute;
+  background-color: white;
+  left: 240px;
+  top: 2680px;
+  
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 300px;
+  }
+  #salad{width:350px; height:500px; 
+    position:absolute;
+    top:2250px;
+    left:700px;}
+  #letter{width:1050px; height:570px; 
+    position:absolute;
+    top:2780px;
+    left:140px;}
