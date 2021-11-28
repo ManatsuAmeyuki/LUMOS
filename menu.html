@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+
+    <link rel="stylesheet" type="text/css" href="css/nav/style.css">
+    <link rel="stylesheet" type="text/css" href="css/menu/style.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+
+    
+</head>
+
+<body>
+
+    <!--导航栏-->
+    <header>
+        <nav id="navbar">
+            <img src="images/logo2.png" class="logo">
+            <ul id="menu" class="menu1">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="environment.html">ENVIRONMENT</a></li>
+                <li><a href="#" class="active">MENU</a></li>
+                <li><a href="service.html">SERVICE</a></li>
+            </ul>
+            <ul class="users">
+                <li><a href="login.html" class="login">Log in</a></li>
+                <li><a href="register.html" class="login">Register</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <div id="menucontent">
+        <div id="menuhead">
+        </div>
+        <div id="category">
+            <div class="row">
+                <!-- A basic setup of multifilter controls, when the user toggles a category
+                the corresponding items are rendered or hidden -->
+                <ul class="simplefilter">
+                    <li class="catetitle">Cuisine：</li>     
+                    <li class="choose" data-filter="all">All</li>
+                    <li class="choose" data-filter="1">Chinese</li>
+                    <li class="choose" data-filter="2">Japanese</li>
+                    <li class="choose" data-filter="3">Korean</li>
+                    <li class="choose" data-filter="4">French</li>
+                </ul>
+            </div>
+            <div class="row">
+                <!-- A basic setup of multifilter controls, when the user toggles a category
+                the corresponding items are rendered or hidden -->
+                <ul class="simplefilter">
+                    <li class="catetitle">Serving Order:</li>     
+                    <li class="choose" data-filter="all">All</li>
+                    <li class="choose" data-filter="5">Appetizer</li>
+                    <li class="choose" data-filter="6">Main Course</li>
+                    <li class="choose" data-filter="7">Salad</li>
+                    <li class="choose" data-filter="8">Deseserts</li>
+                    <li class="choose" data-filter="9">Drinks</li>
+                </ul>
+            </div>
+            <div class="row">
+                <!-- A basic setup of multifilter controls, when the user toggles a category
+                the corresponding items are rendered or hidden -->
+                <ul class="simplefilter">
+                    <li class="catetitle">Flavor:</li>  
+                    <li class="choose" data-filter="all">All</li>   
+                    <li class="choose" data-filter="10">Spicy</li>
+                    <li class="choose" data-filter="11">Not spicy</li>
+                    <li class="choose" data-filter="12">Sweet</li>
+                    <li class="choose" data-filter="13">Salty</li>
+                </ul>
+            </div>
+        </div>
+
+		<!-- Meal-area-start -->
+        <section class="meal-select-section">
+            <div class="main-menu">
+                <div class="row align-items-center">
+                    <div class="meal">
+                        <div class="filtr-container">
+                            <div class="filtr-item" data-category="1, 5, 12">
+                                <div class="meal-container" >
+                                    <div class="meal-img">
+                                        <img src="images/menu/m-img01.png" alt="img">
+                                    </div>
+                                    <div class="meal-content">
+                                       <h5>
+                                           <a href="menu_detail.html">CRISPY FRIED CHICKEN</a>
+                                       </h5>   
+                                       <p>Hot, Big, Full Plater, Cosmos</p>
+                                   </div>
+                                    <div class="line">
+                                       <hr>
+                                   </div>
+                                    <div class="meal-price">
+                                        <a href="menu_detail.html">$13.00</a>
+                                        <span>$19.00</span>
+                                    </div>
+                               </div>
+                            </div>
+
+                            <div class="filtr-item" data-category="1, 4, 11">
+                                <div class="meal-container" >
+                                    <div class="meal-img">
+                                        <img src="images/menu/m-img02.png" alt="img">
+                                    </div>
+                                    <div class="meal-content">
+                                       <h5>
+                                           <a href="menu_detail.html">CRISPY FRIED CHICKEN</a>
+                                       </h5>   
+                                       <p>Hot, Big, Full Plater, Cosmos</p>
+                                   </div>
+                                    <div class="line">
+                                       <hr>
+                                   </div>
+                                    <div class="meal-price">
+                                        <a href="menu_detail.html">$13.00</a>
+                                        <span>$19.00</span>
+                                    </div>
+                               </div>
+                            </div>
+
+                            <div class="filtr-item" data-category="2, 6, 10">
+                                <div class="meal-container" >
+                                    <div class="meal-img">
+                                        <img src="images/menu/m-img03.png" alt="img">
+                                    </div>
+                                    <div class="meal-content">
+                                       <h5>
+                                           <a href="menu_detail.html">CRISPY FRIED CHICKEN</a>
+                                       </h5>   
+                                       <p>Hot, Big, Full Plater, Cosmos</p>
+                                   </div>
+                                    <div class="line">
+                                       <hr>
+                                   </div>
+                                    <div class="meal-price">
+                                        <a href="menu_detail.html">$13.00</a>
+                                        <span>$19.00</span>
+                                    </div>
+                               </div>
+                            </div>
+
+                            <div class="filtr-item" data-category="3, 7, 9">
+                                <div class="meal-container" >
+                                    <div class="meal-img">
+                                        <img src="images/menu/m-img04.png" alt="img">
+                                    </div>
+                                    <div class="meal-content">
+                                       <h5>
+                                           <a href="menu_detail.html">CRISPY FRIED CHICKEN</a>
+                                       </h5>   
+                                       <p>Hot, Big, Full Plater, Cosmos</p>
+                                   </div>
+                                    <div class="line">
+                                       <hr>
+                                   </div>
+                                    <div class="meal-price">
+                                        <a href="menu_detail.html">$13.00</a>
+                                        <span>$19.00</span>
+                                    </div>
+                               </div>
+                            </div>
+
+                            <div class="filtr-item" data-category="4, 5, 12">
+                                <div class="meal-container" >
+                                    <div class="meal-img">
+                                        <img src="images/menu/m-img05.png" alt="img">
+                                    </div>
+                                    <div class="meal-content">
+                                       <h5>
+                                           <a href="menu_detail.html">CRISPY FRIED CHICKEN</a>
+                                       </h5>   
+                                       <p>Hot, Big, Full Plater, Cosmos</p>
+                                   </div>
+                                    <div class="line">
+                                       <hr>
+                                   </div>
+                                    <div class="meal-price">
+                                        <a href="menu_detail.html">$13.00</a>
+                                        <span>$19.00</span>
+                                    </div>
+                               </div>
+                            </div>
+
+                            <div class="filtr-item" data-category="3, 6, 11">
+                                <div class="meal-container" >
+                                    <div class="meal-img">
+                                        <img src="images/menu/m-img06.png" alt="img">
+                                    </div>
+                                    <div class="meal-content">
+                                       <h5>
+                                           <a href="menu_detail.html">CRISPY FRIED CHICKEN</a>
+                                       </h5>   
+                                       <p>Hot, Big, Full Plater, Cosmos</p>
+                                   </div>
+                                    <div class="line">
+                                       <hr>
+                                   </div>
+                                    <div class="meal-price">
+                                        <a href="menu_detail.html">$13.00</a>
+                                        <span>$19.00</span>
+                                    </div>
+                               </div>
+                            </div>
+
+                            <div class="filtr-item" data-category="1, 7, 10">
+                                <div class="meal-container" >
+                                    <div class="meal-img">
+                                        <img src="images/menu/m-img07.png" alt="img">
+                                    </div>
+                                    <div class="meal-content">
+                                       <h5>
+                                           <a href="menu_detail.html">CRISPY FRIED CHICKEN</a>
+                                       </h5>   
+                                       <p>Hot, Big, Full Plater, Cosmos</p>
+                                   </div>
+                                    <div class="line">
+                                       <hr>
+                                   </div>
+                                    <div class="meal-price">
+                                        <a href="menu_detail.html">$13.00</a>
+                                        <span>$19.00</span>
+                                    </div>
+                               </div>
+                            </div>
+
+                            <div class="filtr-item" data-category="1, 8, 9">
+                                <div class="meal-container" >
+                                    <div class="meal-img">
+                                        <img src="images/menu/m-img08.png" alt="img">
+                                    </div>
+                                    <div class="meal-content">
+                                       <h5>
+                                           <a href="menu_detail.html">CRISPY FRIED CHICKEN</a>
+                                       </h5>   
+                                       <p>Hot, Big, Full Plater, Cosmos</p>
+                                   </div>
+                                    <div class="line">
+                                       <hr>
+                                   </div>
+                                    <div class="meal-price">
+                                        <a href="menu_detail.html">$13.00</a>
+                                        <span>$19.00</span>
+                                    </div>
+                               </div>
+                            </div>
+
+                            <div class="filtr-item" data-category="2, 7, 10">
+                                <div class="meal-container" >
+                                    <div class="meal-img">
+                                        <img src="images/menu/m-img09.png" alt="img">
+                                    </div>
+                                    <div class="meal-content">
+                                       <h5>
+                                           <a href="menu_detail.html">CRISPY FRIED CHICKEN</a>
+                                       </h5>   
+                                       <p>Hot, Big, Full Plater, Cosmos</p>
+                                   </div>
+                                    <div class="line">
+                                       <hr>
+                                   </div>
+                                    <div class="meal-price">
+                                        <a href="menu_detail.html">$13.00</a>
+                                        <span>$19.00</span>
+                                    </div>
+                               </div>
+                            </div>
+
+                            <div class="filtr-item" data-category="3, 6, 11">
+                                <div class="meal-container" >
+                                    <div class="meal-img">
+                                        <img src="images/menu/m-img10.png" alt="img">
+                                    </div>
+                                    <div class="meal-content">
+                                       <h5>
+                                           <a href="menu_detail.html">CRISPY FRIED CHICKEN</a>
+                                       </h5>   
+                                       <p>Hot, Big, Full Plater, Cosmos</p>
+                                   </div>
+                                    <div class="line">
+                                       <hr>
+                                   </div>
+                                    <div class="meal-price">
+                                        <a href="menu_detail.html">$13.00</a>
+                                        <span>$19.00</span>
+                                    </div>
+                               </div>
+                            </div>
+
+                            <div class="filtr-item" data-category="4, 5, 12">
+                                <div class="meal-container" >
+                                    <div class="meal-img">
+                                        <img src="images/menu/m-img11.png" alt="img">
+                                    </div>
+                                    <div class="meal-content">
+                                       <h5>
+                                           <a href="menu_detail.html">CRISPY FRIED CHICKEN</a>
+                                       </h5>   
+                                       <p>Hot, Big, Full Plater, Cosmos</p>
+                                   </div>
+                                    <div class="line">
+                                       <hr>
+                                   </div>
+                                    <div class="meal-price">
+                                        <a href="menu_detail.html">$13.00</a>
+                                        <span>$19.00</span>
+                                    </div>
+                               </div>
+                            </div>
+
+                            <div class="filtr-item" data-category="3, 6, 11">
+                                <div class="meal-container" >
+                                    <div class="meal-img">
+                                        <img src="images/menu/m-img12.png" alt="img">
+                                    </div>
+                                    <div class="meal-content">
+                                       <h5>
+                                           <a href="menu_detail.html">CRISPY FRIED CHICKEN</a>
+                                       </h5>   
+                                       <p>Hot, Big, Full Plater, Cosmos</p>
+                                   </div>
+                                    <div class="line">
+                                       <hr>
+                                   </div>
+                                    <div class="meal-price">
+                                        <a href="menu_detail.html">$13.00</a>
+                                        <span>$19.00</span>
+                                    </div>
+                               </div>
+                            </div>
+
+                            <div class="filtr-item" data-category="1, 8, 9">
+                                <div class="meal-container" >
+                                    <div class="meal-img">
+                                        <img src="images/menu/m-img13.png" alt="img">
+                                    </div>
+                                    <div class="meal-content">
+                                       <h5>
+                                           <a href="menu_detail.html">CRISPY FRIED CHICKEN</a>
+                                       </h5>   
+                                       <p>Hot, Big, Full Plater, Cosmos</p>
+                                   </div>
+                                    <div class="line">
+                                       <hr>
+                                   </div>
+                                    <div class="meal-price">
+                                        <a href="menu_detail.html">$13.00</a>
+                                        <span>$19.00</span>
+                                    </div>
+                               </div>
+                            </div>
+
+                            <div class="filtr-item" data-category="2, 7, 10">
+                                <div class="meal-container" >
+                                    <div class="meal-img">
+                                        <img src="images/menu/m-img14.png" alt="img">
+                                    </div>
+                                    <div class="meal-content">
+                                       <h5>
+                                           <a href="menu_detail.html">CRISPY FRIED CHICKEN</a>
+                                       </h5>   
+                                       <p>Hot, Big, Full Plater, Cosmos</p>
+                                   </div>
+                                    <div class="line">
+                                       <hr>
+                                   </div>
+                                    <div class="meal-price">
+                                        <a href="menu_detail.html">$13.00</a>
+                                        <span>$19.00</span>
+                                    </div>
+                               </div>
+                            </div>
+
+                            <div class="filtr-item" data-category="2, 5, 11">
+                                <div class="meal-container" >
+                                    <div class="meal-img">
+                                        <img src="images/menu/m-img15.png" alt="img">
+                                    </div>
+                                    <div class="meal-content">
+                                       <h5>
+                                           <a href="menu_detail.html">CRISPY FRIED CHICKEN</a>
+                                       </h5>   
+                                       <p>Hot, Big, Full Plater, Cosmos</p>
+                                   </div>
+                                    <div class="line">
+                                       <hr>
+                                   </div>
+                                    <div class="meal-price">
+                                        <a href="menu_detail.html">$13.00</a>
+                                        <span>$19.00</span>
+                                    </div>
+                               </div>
+                            </div>
+
+                            <div class="filtr-item" data-category="3, 8, 12">
+                                <div class="meal-container" >
+                                    <div class="meal-img">
+                                        <img src="images/menu/m-img16.png" alt="img">
+                                    </div>
+                                    <div class="meal-content">
+                                       <h5>
+                                           <a href="menu_detail.html">CRISPY FRIED CHICKEN</a>
+                                       </h5>   
+                                       <p>Hot, Big, Full Plater, Cosmos</p>
+                                   </div>
+                                    <div class="line">
+                                       <hr>
+                                   </div>
+                                    <div class="meal-price">
+                                        <a href="menu_detail.html">$13.00</a>
+                                        <span>$19.00</span>
+                                    </div>
+                               </div>
+                            </div>
+
+                            <div class="filtr-item" data-category="4, 5, 11">
+                                <div class="meal-container" >
+                                    <div class="meal-img">
+                                        <img src="images/menu/m-img17.png" alt="img">
+                                    </div>
+                                    <div class="meal-content">
+                                       <h5>
+                                           <a href="menu_detail.html">CRISPY FRIED CHICKEN</a>
+                                       </h5>   
+                                       <p>Hot, Big, Full Plater, Cosmos</p>
+                                   </div>
+                                    <div class="line">
+                                       <hr>
+                                   </div>
+                                    <div class="meal-price">
+                                        <a href="menu_detail.html">$13.00</a>
+                                        <span>$19.00</span>
+                                    </div>
+                               </div>
+                            </div>
+
+                            <div class="filtr-item" data-category="3, 6, 10">
+                                <div class="meal-container" >
+                                    <div class="meal-img">
+                                        <img src="images/menu/m-img18.png" alt="img">
+                                    </div>
+                                    <div class="meal-content">
+                                       <h5>
+                                           <a href="menu_detail.html">CRISPY FRIED CHICKEN</a>
+                                       </h5>   
+                                       <p>Hot, Big, Full Plater, Cosmos</p>
+                                   </div>
+                                    <div class="line">
+                                       <hr>
+                                   </div>
+                                    <div class="meal-price">
+                                        <a href="menu_detail.html">$13.00</a>
+                                        <span>$19.00</span>
+                                    </div>
+                               </div>
+                            </div>
+
+                            <div class="filtr-item" data-category="1, 8, 9">
+                                <div class="meal-container" >
+                                    <div class="meal-img">
+                                        <img src="images/menu/m-img19.png" alt="img">
+                                    </div>
+                                    <div class="meal-content">
+                                       <h5>
+                                           <a href="menu_detail.html">CRISPY FRIED CHICKEN</a>
+                                       </h5>   
+                                       <p>Hot, Big, Full Plater, Cosmos</p>
+                                   </div>
+                                    <div class="line">
+                                       <hr>
+                                   </div>
+                                    <div class="meal-price">
+                                        <a href="menu_detail.html">$13.00</a>
+                                        <span>$19.00</span>
+                                    </div>
+                               </div>
+                            </div>
+
+                            <div class="filtr-item" data-category="1, 7, 10">
+                                <div class="meal-container" >
+                                    <div class="meal-img">
+                                        <img src="images/menu/m-img20.png" alt="img">
+                                    </div>
+                                    <div class="meal-content">
+                                       <h5>
+                                           <a href="menu_detail.html">CRISPY FRIED CHICKEN</a>
+                                       </h5>   
+                                       <p>Hot, Big, Full Plater, Cosmos</p>
+                                   </div>
+                                    <div class="line">
+                                       <hr>
+                                   </div>
+                                    <div class="meal-price">
+                                        <a href="menu_detail.html">$13.00</a>
+                                        <span>$19.00</span>
+                                    </div>
+                               </div>
+                            </div>
+
+                            <div class="filtr-item" data-category="2, 6, 12">
+                                <div class="meal-container" >
+                                    <div class="meal-img">
+                                        <img src="images/menu/m-img21.png" alt="img">
+                                    </div>
+                                    <div class="meal-content">
+                                       <h5>
+                                           <a href="menu_detail.html">CRISPY FRIED CHICKEN</a>
+                                       </h5>   
+                                       <p>Hot, Big, Full Plater, Cosmos</p>
+                                   </div>
+                                     <div class="line">
+                                       <hr>
+                                   </div>
+                                    <div class="meal-price">
+                                        <a href="menu_detail.html">$13.00</a>
+                                        <span>$19.00</span>
+                                    </div>
+                               </div>
+                            </div>
+
+                            <div class="filtr-item" data-category="3, 5, 11">
+                                <div class="meal-container" >
+                                    <div class="meal-img">
+                                        <img src="images/menu/m-img22.png" alt="img">
+                                    </div>
+                                    <div class="meal-content">
+                                       <h5>
+                                           <a href="menu_detail.html">CRISPY FRIED CHICKEN</a>
+                                       </h5>   
+                                       <p>Hot, Big, Full Plater, Cosmos</p>
+                                   </div>
+                                    <div class="line">
+                                       <hr>
+                                   </div>
+                                    <div class="meal-price">
+                                        <a href="menu_detail.html">$13.00</a>
+                                        <span>$19.00</span>
+                                    </div>
+                               </div>
+                            </div>
+                            
+
+                        </div>
+                    </div>    
+                                     
+                </div>
+                
+                
+            </div>
+        </section>
+           <!-- Meal-area-end -->
+
+
+    </div>
+
+
+        
+
+    <!--底部-->
+    <div id="footer">
+        <div class="container text-center">
+            <div class="col-md-6">
+                <p>Copyright &copy; 2021.<a target="_blank" href="#">UTF-5</a> All rights reserved.</p>
+            </div>
+            <div class="col-md-6">
+                <div class="social">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--make header always above-->
+
+
+    <script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <script src="js/jquery.filterizr.min.js"></script>
+    <script src="js/controls.js"></script>
+    <script type="text/javascript">
+    $(function() {
+        $('.filtr-container').filterizr();
+    });
+    </script>
+
+    <script type="text/javascript" src="js/bootstrap.js"></script>  
+
+
+</body>
+
+
+
+</html>
