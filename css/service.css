@@ -8,20 +8,39 @@
                 margin-left: 430px;
                 padding: 2px;}
      .video{float: left;
-               margin-left: 50px;}
-    .container {margin:10px}
+               margin-left: 80px;}
+    #in1{position:absolute;top:365px;
+      width: 150px;
+      left:970px;}
+      #tele{position:absolute;top:430px;
+        width: 150px;
+        left:862px;}
+    #in2{position:absolute;top:420px;
+        width: 150px;
+        left:970px;}
+    #in3{position:absolute;top:480px;
+          width: 170px;
+          left:970px;}
+    #in4{position:absolute;top:540px; height:25px;
+            width: 170px;
+            left:970px;}
+            #in5{position:absolute;top:600px;
+              width: 170px;
+              left:970px;}      
+    .container {margin:50px}
     .infor{
-            border-left-width: 23px;
+            border-left-width: 20px;
             font-size: 25px;
             float: right;
             text-align:inherit;
                line-height: 15px;
-            vertical-align:middle;}
+         
+          }
         .button {
   display: inline-block;
   border-radius: 4px;
   position:relative;
-  left: 150px;
+  left: 130px;
   background-color: #f33c0e;
   border: none;
   color: #FFFFFF;
@@ -59,8 +78,9 @@
   right: 0;
 }
 .diy{clear:both;
+    
     }
-#diy{margin-left: 480px;
+#diy{margin-left: 500px;
     width:280px;
     height: 128px;}
 
@@ -70,8 +90,8 @@
  #td{
     width:350px; height:370px; 
     position:absolute;
-    top:1420px;
-    left:180px;
+    top:1450px;
+    left:240px;
     clear:both;}
 #text1 {
     width:470px; height:350px; float:right;
@@ -81,16 +101,16 @@
     width:420px; height:330px; 
     position:absolute;
     top:1420px;
-    left:800px;
+    left:850px;
    }  
 .vote1{
   display: inline-block;
   border-radius: 4px;
   position:absolute;
   background-color: white;
-  left: 900px;
+  left: 950px;
   
-  top: 1310px;
+  top: 1350px;
   border-color:lightcoral;
   text-align: center;
   font-size: 15px;
@@ -103,7 +123,7 @@
   border-radius: 4px;
   position:absolute;
   background-color: white;
-  left: 910px;
+  left: 960px;
   top: 1745px;
   border-color:lightcoral;
   text-align: center;
@@ -113,12 +133,12 @@
   margin: 5px;
 }
 #join{ width:1000px;height: 430px;position: absolute;
-    top:1800px;left:180px;text-align: center;}
+    top:1830px;left:280px;text-align: center;}
 #b1{display: inline-block;
   border:none;
   position:absolute;
   background-color: white;
-  left: 279px;
+  left: 340px;
   top: 2280px;
   
   text-align: center;
@@ -130,7 +150,7 @@
   border:none;
   position:absolute;
   background-color: white;
-  left: 240px;
+  left: 300px;
   top: 2480px;
   
   text-align: center;
@@ -142,7 +162,7 @@
   border:none;
   position:absolute;
   background-color: white;
-  left: 240px;
+  left: 290px;
   top: 2680px;
   
   text-align: center;
@@ -150,11 +170,11 @@
   padding: 10px;
   width: 300px;
   }
-  #salad{width:350px; height:500px; 
+  #salad{width:350px; height:550px; 
     position:absolute;
-    top:2250px;
-    left:700px;}
-  #letter{width:1050px; height:570px; 
+    top:2270px;
+    left:820px;}
+  #letter{width:1130px; height:600px; 
     position:absolute;
-    top:2780px;
+    top:2830px;
     left:140px;}
