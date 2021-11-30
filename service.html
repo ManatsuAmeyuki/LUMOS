@@ -24,7 +24,7 @@
             <ul id="menu" class="menu1">
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="environment.html">ENVIRONMENT</a></li>
-                <li><a href="menu.html"></a>MENU</a></li>
+                <li><a href="menu.html">MENU</a></li>
                 <li><a href="#" class="active">SERVICE</a></li>
             </ul>
             <ul class="users">
@@ -50,13 +50,13 @@
         <div class="infor">
             <form action="http://example.com/join.php" method="get">
                 <br><br><br><br><br><br><br><br><br>
-                <label for="name">Miss/Mr:</label>
-                <input type="text" name="name" height="5px" maxlength="30" required="required">
+                <label for="name" >Miss/Mr:</label>
+                <input id="in1" type="text" name="name" height="5px" maxlength="20" required="required" >
                 <br><br><br>
-                <label for="Tele">   Tele:</label>
-                <input type="text" name="Tele" height="5px" maxlength="30" required="required">
+                <label for="Tele" style="width:10px;"id="tele" >   Tele:</label>
+                <input id="in2" type="text" name="Tele" height="5px" maxlength="20" required="required">
                 <br><br><br><br>
-                <p><b>District:</b><select name="District">
+                <p><b>District:</b><select name="District" id="in3">
                     <option value="The LEGACY HOUSE" selected="selected">The LEGACY HOUSE</option>
                     <option value="HOLT's CAFE" >HOLT's CAFE</option>
                     <option value="BAYFARE SOCIAL" >BAYFARE SOCIAL</option>
@@ -64,12 +64,12 @@
                 
                 </select></p>
                 <br><br>
-                <label for="date">Date:</label>
-                <input type="date" name="date">
-                <br><br><br>
-                <label for="Seat">Seat:</label>
-                <input type="text" name="Seat" height="5px" maxlength="30" required="required">
-                <br><br><br>
+                <label for="date" style="width:10px;">Date:</label>
+                <input id="in4" type="date" name="date" size="100px">
+                <br><br><br> 
+                <label for="Seat" >Seat:</label>
+                <input type="text" id="in6" name="Seat"  maxlength="3" required="required">
+                <br><br><br><br>
             </form> 
         </div>
         <button class="button" style="vertical-align:middle"><span>Book Now! </span></button>
